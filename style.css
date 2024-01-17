@@ -431,6 +431,7 @@ input{
         font-style: normal;
         font-weight: 800;
         line-height: normal;
+        padding-bottom: 24px;
 }
 
 .why-choice-des{
@@ -442,11 +443,52 @@ input{
         font-weight: 400;
         line-height: 26px;
         /* 162.5% */
+        padding-bottom: 48px;
 }
-
-
-
-
+.card-1{
+    border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding: 32px;
+}
+.card-2{
+    border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+        padding: 32px;
+}
+.card-3{
+    margin-left: 300px;
+    width: 486px;
+    padding: 32px;
+    margin-top: 24px;
+    border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+}
+.two-card{
+    display: flex;
+    gap: 24px;
+}
+.card-1-title{
+    color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-top: 32px;
+        padding-bottom: 16px;
+}
+.card-1-des{
+    color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+}
 
 
 
@@ -464,6 +506,9 @@ input{
 
 @media screen and (max-width:425px) {
    
+
+
+    
 /* Navbar Responsive Style */
 
     .navbar {
@@ -485,9 +530,52 @@ input{
     .menu-container {
             margin-top: 10px;
         }
-
-
-
+    .card-3 {
+        margin-left: 0px;
+        width: 286px;
+        padding: 32px;
+        margin-top: 24px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        }
+    .card-1-title{
+        color: #131318;
+           
+            font-family: Mulish;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+    }
+    .card-1-des{
+        color: #5A5A5D;
+            font-family: Mulish;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 171.429% */
+    }
+    .why-choice-title{
+        color: #131318;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+    }
+    .why-choice-des{
+        color: rgba(19, 19, 24, 0.70);
+            text-align: center;
+            font-family: Mulish;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 171.429% */
+    }
 
 
 
@@ -829,6 +917,13 @@ color: rgba(19, 19, 24, 0.70);
 
 }
 
+
+
+/* Why choice section style */
+.two-card {
+    flex-direction: column;
+}
+
 }
 
 
@@ -839,7 +934,11 @@ color: rgba(19, 19, 24, 0.70);
 /* Medium device responsive layout */
 @media screen and (min-width:426px) and (max-width:992px) {
 
+
+
+
     /* Navbar Responsive Style */
+    
         .navbar {
             flex-direction: column;
         }
@@ -848,6 +947,9 @@ color: rgba(19, 19, 24, 0.70);
             margin-top: 10px;
         }
     
+
+
+
         /* Banner Responsive Style */
     
         .banner-img {
@@ -954,6 +1056,9 @@ color: rgba(19, 19, 24, 0.70);
 
 @media screen and (min-width:426px) and (max-width:768px){
 
+
+
+
 /* Navbar Responsive Style */
     .navbar {
             flex-direction: column;
@@ -962,6 +1067,8 @@ color: rgba(19, 19, 24, 0.70);
     .menu-container {
         margin-top: 10px;
     }
+
+
 
 /* Banner Responsive Style */
 
